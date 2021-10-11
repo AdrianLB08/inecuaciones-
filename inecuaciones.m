@@ -1,10 +1,11 @@
 %Octave script
 %Title          : Inecuaciones en Octave
 %Descripcion    : Script de Octave que realizara el codigo que resuelva inecuaciones y graficas
-%Author         : Adrian Lovera Bombela,Fernando Jesús Paredes Martinez
+%Author         : Adrian Lovera Bombela, Fernando JesÃºs Paredes Martinez
 %Date           : 202123498,202123322
 %version        : 1.0
 %Usage          : <https://www.octave.org/missing.html>
+
 
 pkg load symbolic
 syms x
@@ -49,7 +50,6 @@ syms x
 disp("...:::Inecuaciones de Valor Absoluto:::...")
 disp("|x-9|>2")
 solve(abs(x-9)>2)
-
 
 x=[-20:7]
 x=[11:100]
