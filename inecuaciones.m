@@ -1,8 +1,8 @@
 %Octave script
 %Title          : Inecuaciones en Octave
 %Descripcion    : Script de Octave que realizara el codigo que resuelva inecuaciones y graficas
-%Author         : Adrian Lovera Bombela,Fernando Jesús Paredes Martinez
-%Date           : 202123498,202123322
+%Author         : Adrian Lovera Bombela,Fernando JesÃºs Paredes Martinez
+%Date           : 202123498 - 202123322
 %version        : 1.0
 %Usage          : <https://www.octave.org/missing.html>
 
@@ -12,6 +12,7 @@ syms x
 disp("...:::Inecuaciones de Primer Grado:::...");
 disp(x+7<14);
 solve(x+7<14)
+
 
 x=[-20:7]
 y=x-7
@@ -31,6 +32,7 @@ disp(x^2+7*x<13);
 solve(x^2+7*x<13)
 y=7*x-13
 ezplot((x)^2,y)
+
 
 x=[-20:18]
 y=x-18
